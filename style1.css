@@ -1,0 +1,40 @@
+body {
+    font-family: Helvetica;
+    padding: 10px;
+    background: #003004;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+   .card {
+    background-color: #3b116b;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    height:max-content;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .footer {
+    padding: 20px;
+    background: black;
+    margin-top: 20px;
+  }
